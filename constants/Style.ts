@@ -41,16 +41,20 @@ const styles = StyleSheet.create({
     buttonText: {color: '#fff', fontWeight: '500'},
 
     user: {
-        padding: 20,
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        borderBottomWidth: 1,
-        borderBottomColor: 'rgba(0, 0, 0, 0.2)',
+      padding: 20,
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      borderBottomWidth: 1,
+      borderBottomColor: 'rgba(0, 0, 0, 0.2)',
       },
-      header:{
-        fontWeight: '800',
-      }
+
+    header:{
+      fontWeight: '800',
+    }, 
+    userText: {
+      fontWeight: '500',
+    }
   });
   
   export default styles;
